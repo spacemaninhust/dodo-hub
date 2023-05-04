@@ -1,0 +1,28 @@
+site_name: 嘟嘟收件箱使用指南
+site_description: 嘟嘟收件箱说明文档
+#site_url: ???
+repo_url: https://github.com/slapaf/dodoco-hub
+copyright: Copyright @ 2023 嘟嘟收件箱开发组
+nav:
+  - 主页: index.md
+theme:
+  name: material
+  language: "zh"
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 深色模式
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 浅色模式
+  features:
+    - header.autohide
+plugins:
+  - search
+  - glightbox

@@ -1,0 +1,25 @@
+.coupon :global .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+}
+.coupon :global .ant-input-affix-wrapper {
+    width: 90%;
+    border-radius: 8px;
+}
+.coupon :global .label {
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 1px;
+    width: 40%;
+}
+.coupon :global .ant-form-item-row {
+    width: 100%;
+}
+.coupon :global .ant-form-item {
+    margin: 10px;
+    margin-left: 12%;
+    width: 100%;
+}
+.coupon :global .ant-form{
+    width: 100%;
+}

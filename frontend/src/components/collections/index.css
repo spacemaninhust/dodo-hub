@@ -1,0 +1,160 @@
+.card {
+    margin: 5%;
+    height: 100px;
+    background-color: #ffffffe1;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card:hover {
+    scale: 1.05;
+    box-shadow: 0 0 10px #616060;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.card:hover .cardHead {
+    background-color: #ffd373;
+    color: #000;
+    transition: 0.5s;
+}
+.card:hover .itemTitles {
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.cardHead,
+.cardBody {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardHead {
+    width: 30vw;
+    background-color:#ffb77359;
+    border-radius:15px;
+    transition: 0.5s;
+}
+
+.cardHead .cardItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.cardHead .cardItems:nth-of-type(1) {
+    border-radius: 10% 0 0 10%;
+    flex: 1.5;
+}
+
+.cardHead .cardItems:nth-of-type(2) {
+    flex: 1;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cardHead .cardItems:nth-of-type(3) {
+    border-radius: 0 10% 10% 0;
+    flex: 1.5;
+}
+
+
+.itemTitles {
+  font-size: 13px;
+  color: rgb(59, 55, 55);
+  padding: 3px 3px;
+  margin: 10px 0 5px 0; 
+  border: 1px gray dotted;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.member_operate,
+.cardItems {
+    display: flex;
+}
+
+.cardItems {
+    margin: 5px;
+}
+
+.member_title,
+.member_name {
+    width: 80%;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.member_date {
+    text-align: center;
+    width: 80%;
+}
+
+/* cardBody部分 */
+.cardBody {
+    width: 30vw;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.cardBody .cardItems {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.member_condition,
+.member_times {
+    position: relative;
+    top:2px;
+    left:5px;
+}
+
+.member_operate {
+    width: 23vw;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 3px;
+}
+
+.operate:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #6c94f0;
+}
+
+.operate {
+    font-size: 13px;
+  color: rgb(59, 55, 55);
+  padding: 5px 10px;
+  margin: 1.5% ;
+  background-color: rgba(241,241,241,.98);
+  border-radius: 10px;
+}
+.ok{
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 15px;
+    margin: 0 20% 0 40%;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+}
+.ok:hover{
+    background-color: #8ea4f8;
+    color: #f0f0f0;
+}
+.coll{
+    width: 20px;
+    margin: 1px 2px;
+    padding-bottom: 5px;
+}

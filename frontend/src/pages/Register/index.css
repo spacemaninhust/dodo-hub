@@ -1,0 +1,104 @@
+.login-in-form-create{
+    width: 520px;
+    height: 500px;
+    border: 2px solid #05f9dc;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top:196px;
+}
+@media only screen and (min-width: 1280px){
+    .login-in-form-create{
+        width: 520px;
+        height: 500px;
+        border: 2px solid #05f9dc;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        top:196px;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .login-in-form-create{
+        width: 520px;
+        height: 500px;
+        border: 2px solid #05f9dc;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        top:236px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .login-in-form-create{
+        width: 520px;
+        height: 500px;
+        border: 2px solid #05f9dc;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        top:306px;
+    }
+}
+
+.repeat-password-creat{
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: #034584;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    color: #fafafc;
+}
+.span-repeat-password-creat{
+    position: absolute;
+    left: 50px;
+    padding: 10px;
+    margin-top: 40px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #fafafc;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.repeat-password-creat:valid ~ span,
+.repeat-password-creat:focus ~ span{
+    color:#00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: #034584;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+}
+.button-creat{
+    font-size: 24px;
+    position: relative;
+    left: 0px;
+    background-color: #033f78;
+    border: 1px solid #8C8D9B;
+    border-radius: 8px;
+    color: #fafafc;
+}
+#normal_login_password_help{
+    margin-left: 200px;
+    color: #fafafc;
+}
+#normal_login_Username_help{
+    margin-left: 210px;
+    color: #fafafc;
+}
+#normal_login_repeat-password_help{
+    margin-left: 200px;
+    color: #fafafc;
+}

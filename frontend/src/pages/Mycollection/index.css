@@ -1,0 +1,35 @@
+.collection{
+    width: 70%;
+    height: fit-content;
+    border: 1px solid #5a5a5a;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+#cardContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    border-radius: 15px;
+}
+
+#cardContainer>h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+    font-weight: 400;
+    color: #454545;
+}
+.bg{
+    z-index: -2;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: calc(100vh);
+}
+.linktocol{
+    color: black;
+}
+.linktocol:hover{
+   color: #417bff;
+}

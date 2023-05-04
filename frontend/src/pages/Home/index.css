@@ -1,0 +1,357 @@
+body {
+    position: relative;
+    font-family: "Microsoft YaHei";
+}
+
+nav {
+    height: 60px;
+    background-color: #f7f9fb;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav .left {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .middle {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nav_op {
+    margin: 10px;
+    padding: 8px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.nav_op a {
+    color: #417bff;
+}
+
+.nav_op:hover {
+    background-color: #417bff;
+}
+
+.nav_op:hover a{
+    color: #fff;
+}
+
+
+#nav_productName {
+    display: flex;
+    color: #333333;
+    font-size: 18px;
+    font-family: "YouYuan";
+    align-items: center;
+}
+#nav_image{
+    width: 32px;
+}
+/* 主界面 */
+.container {
+    /* height: 100vh; */
+    position: relative;
+    max-width: 100vw;
+    background-color:  #f7f9fb;
+    overflow: hidden;
+    z-index: 3;
+}
+
+
+.main {
+    position: absolute;
+    top: 24vh;
+    right: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#productName {
+    font-family: "Microsoft YaHei";
+    font-size: 60px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+} 
+
+#EnglishName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #333333;
+    margin: 10px;
+}
+
+.underProductName {
+    margin: 16px 0px 0px 0px;
+    font-size: 13px;
+    color: #616161;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "STXihei";
+}
+
+#round_right {
+    position: absolute;
+    top: -35vh;
+    right: -35vh;
+    z-index: -1;
+}
+
+#round_left {
+    position: absolute;
+    bottom:-100px;
+    left: -10%;
+    z-index: -1;
+}
+
+#svg1 {
+    width: 700px;
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    z-index: -1;
+   
+}
+
+.createCollection {
+    background-color: #417bff;
+    padding: 10px 20px;
+    margin: 40px 0;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+html, body { 
+    height: auto;
+    max-width: 100vw; 
+}
+
+.panel {
+  max-width: 100vw;
+  height: 100vh;
+  position: sticky;
+  top: 60px;
+  /* padding-top: 60px; */
+}
+
+
+.two{
+    background-color: #f7f9fb;
+    /* background: linear-gradient(to bottom right, #9c8bf2,#4c9bf0); */
+    overflow: hidden;
+    z-index: 10;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f9fb;
+    z-index: 11;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f9fb;
+    z-index: 12;
+}
+
+#collectioncard {
+    position: absolute;
+    bottom: 15%;
+    right: -100px;
+    height: 80%;
+    transition: 0.5s;
+    /* transform: rotate(-25deg); */
+}
+
+#collectioncard:hover {
+    transform: translateX(-200px) scale(1.05);
+    transition: 0.5s;
+}
+
+#mycollectioncard,
+#collectiondetailcard {
+    position: absolute;
+    bottom: -5px;
+    /* margin-left: 10%; */
+    width: 80%;
+    transition: 0.5s;
+}
+
+
+#mycollectioncard:hover,
+#collectiondetailcard:hover {
+    transform: translateY(-20px) scale(1.05);
+    transition: 0.5s;
+}
+
+.two .textBox {
+    margin: 15% 20%;
+}
+
+.three .textBox,
+.four .textBox {
+    margin: 70px 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.pageTitle {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.pageTitle>h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+.pageTitle>h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.paragraph{
+    margin: 20px 0;
+}
+
+.textBox p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* 最后一页 */
+.yuanshen {
+    width: 40vh;
+    transition: 0.5s;
+}
+
+.yuanshen:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fb;
+    overflow: hidden;
+    z-index: 13;
+}
+#left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#aboveFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    font-size: 32px;
+    color: #333333;
+}
+
+#docLinkBox {
+    font-size: 32px;
+    color: #333333;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+}
+
+.login{
+    text-decoration: none;
+}
+.linktoo{
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    color: #417bff;
+    margin: 10px;
+    padding: 8px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.linktoo:hover{
+    background-color: #417bff;
+    color: #fff;
+}
+#docLink{
+    color: #000;
+}
+#docLink:hover{
+    color: #417bff;
+}
+.unregister{
+    cursor: pointer;
+    color: #000;
+}
+.unregister:hover{
+    color: #417bff;
+}
+.personal{
+    color: #000;
+    text-decoration: none;
+}

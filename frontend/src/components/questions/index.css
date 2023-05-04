@@ -1,0 +1,126 @@
+.Nameid{
+    display: block;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+.Nameid:hover{
+    box-shadow: 0 0 5px #3a7dfb48;
+}
+.input-topic {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 3px 5px;
+    width: fit-content;
+}
+  
+.input-topic:focus {
+    outline:1px solid #c2c2c2;
+    box-shadow: 0 0 5px #c2c2c2;
+}
+.input-content {
+    font-size: 14px;
+    background-color: #f3f6f9;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin: 5px 10px;
+}
+  
+#removeTopic {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 3px 5px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    color: black;
+}
+#removeTopic :hover{
+    color: #497cf5;
+}
+.description-name{
+    font-size: 15px;
+    margin: 5px 10px;
+    padding: 5px 5px;
+    width: 90%;
+    height: 40px;
+    max-height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f7f9fb;
+    resize: vertical;
+}
+.choose{
+    margin: 5px 10px;
+}
+.chooses{
+    margin: 5px 10px;
+}
+.ans{
+    margin-left: 10px;
+    border: 1px solid #c2c2c2;
+    width: 300px;
+    height: 30px;
+}
+.option{
+    margin: 11px;
+}
+.input-contents{
+    font-size: 14px;
+    background-color: #f3f6f9;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin: 5px 10px;
+    width: 50%;
+}
+.rule{
+    margin-left:10px;
+    font-size:16px;
+    background-color:#f7f9fb;
+    padding: 7px;
+    width: 50%;
+    border-radius: 5px;
+}
+#upload{
+    border-radius: 10px;
+    background-color: #f7f9fb;
+    color: black;
+    border: 0;
+    font-size: medium;
+    width: 80%;
+}
+.ant-checkbox-wrapper :nth-child(2){
+    display: flex;
+}
+.deleteques{
+    align-items: end;
+    margin-left: 75%;
+}
+@media only screen and (min-width: 1280px) {
+    .deleteques{
+        align-items: end;
+        margin-left: 75%;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .deleteques{
+        align-items: end;
+        margin-left: 78%;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .deleteques{
+        align-items: end;
+        margin-left: 80%;
+    }
+}
+.ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner::after{
+    border-color: #1890ff;
+}
+.ant-checkbox-disabled + span{
+    color: rgba(0, 0, 0, 0.85);
+}
